@@ -2,12 +2,16 @@
 public interface Job {
 	public void work(); 
 	public default void getMoney(int money) {
-		System.out.println(money + "À» ¹ŞÀ½");
-		System.out.println("hi");
-		System.out.println("hi");
-		System.out.println("hi");
-		System.out.println("¼öÁ¤ÇŞ´Ù");
+		System.out.println(money + "Ã€Â» Â¹ÃÃ€Â½");
 
+		System.out.println(money + "Ã€Â» Â¹ÃÃ€Â½");
+=======
+		System.out.println("hi");
+		System.out.println("hi");
+		System.out.println("hi");
+		System.out.println("Â¼Ã¶ÃÂ¤Ã‡ÃÂ´Ã™");
+
+>>>>>>> master
 	}
 
 }
